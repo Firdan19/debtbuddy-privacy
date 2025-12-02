@@ -4,82 +4,296 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kebijakan Privasi – DebtBuddy</title>
+
+  <meta name="description"
+        content="Kebijakan privasi aplikasi DebtBuddy. Penjelasan tentang bagaimana data Anda dikumpulkan, digunakan, dan dilindungi." />
+
+  <style>
+    :root {
+      --bg: #f4f6fb;
+      --card: #ffffff;
+      --accent: #f5b700;
+      --accent-dark: #0a1a3f;
+      --text: #1c2233;
+      --muted: #6b7280;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background: radial-gradient(circle at top left, #ffeaa7, #f4f6fb 55%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .wrapper {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+
+    .card {
+      max-width: 840px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 24px;
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      backdrop-filter: blur(18px);
+      padding: 28px 22px;
+    }
+
+    @media (min-width: 768px) {
+      .card {
+        padding: 32px 32px 36px;
+      }
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      margin: 0 0 4px;
+      color: var(--accent-dark);
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .meta {
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      margin-top: 20px;
+      margin-bottom: 6px;
+      color: var(--accent-dark);
+      font-weight: 700;
+    }
+
+    p {
+      margin: 6px 0;
+      font-size: 0.94rem;
+      text-align: justify;
+    }
+
+    ul {
+      margin: 6px 0 6px 20px;
+      padding: 0;
+      font-size: 0.94rem;
+    }
+
+    li {
+      margin-bottom: 2px;
+    }
+
+    .highlight {
+      background: rgba(245, 183, 0, 0.08);
+      border-left: 3px solid var(--accent);
+      padding: 8px 10px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .footer {
+      margin-top: 24px;
+      font-size: 0.86rem;
+      color: var(--muted);
+      border-top: 1px solid rgba(148, 163, 184, 0.35);
+      padding-top: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <h1>Kebijakan Privasi – DebtBuddy</h1>
-  <p><strong>Terakhir diperbarui:</strong> 2 Desember 2025</p>
+  <div class="wrapper">
+    <article class="card">
+      <header>
+        <h1>Kebijakan Privasi</h1>
+        <div class="subtitle">Aplikasi DebtBuddy</div>
+        <div class="meta">
+          Pengembang: Weblabs<br />
+          Terakhir diperbarui: 2 Desember 2025
+        </div>
+      </header>
 
-  <p>
-    Kebijakan privasi ini menjelaskan bagaimana DebtBuddy mengumpulkan,
-    menggunakan, dan melindungi data pribadi pengguna aplikasi.
-    Dengan menggunakan DebtBuddy, Anda dianggap telah menyetujui kebijakan ini.
-  </p>
+      <section>
+        <p>
+          Kebijakan privasi ini menjelaskan bagaimana DebtBuddy mengumpulkan,
+          menggunakan, dan melindungi data pribadi pengguna. Dengan menggunakan
+          aplikasi DebtBuddy, Anda dianggap telah membaca dan menyetujui
+          kebijakan privasi ini.
+        </p>
+      </section>
 
-  <h2>1. Informasi yang Kami Kumpulkan</h2>
-  <ul>
-    <li>
-      <strong>Alamat email</strong> – digunakan untuk pembuatan akun,
-      autentikasi, dan notifikasi terkait akun.
-    </li>
-    <li>
-      <strong>Aktivitas login</strong> – waktu akses dan status autentikasi
-      untuk menjaga keamanan dan mencegah penyalahgunaan.
-    </li>
-    <li>
-      <strong>Data keuangan yang Anda masukkan</strong> – seperti catatan utang,
-      jumlah, tanggal jatuh tempo, dan catatan tambahan.
-    </li>
-    <li>
-      <strong>Data penggunaan anonim</strong> – informasi teknis non-identitas
-      guna analitik dan peningkatan performa aplikasi.
-    </li>
-  </ul>
+      <section>
+        <h2>1. Informasi yang Kami Kumpulkan</h2>
+        <p>Jenis data yang dapat dikumpulkan oleh DebtBuddy antara lain:</p>
+        <ul>
+          <li>
+            <strong>Alamat email</strong> – digunakan untuk proses
+            autentikasi, pembuatan akun, serta pengiriman notifikasi terkait
+            akun.
+          </li>
+          <li>
+            <strong>Aktivitas login</strong> – seperti waktu akses dan
+            status autentikasi, untuk tujuan keamanan dan pencegahan
+            penyalahgunaan akun.
+          </li>
+          <li>
+            <strong>Data keuangan yang Anda masukkan</strong> – misalnya
+            catatan utang, jumlah, tanggal jatuh tempo, dan catatan tambahan
+            lain yang Anda simpan di aplikasi.
+          </li>
+          <li>
+            <strong>Data penggunaan anonim</strong> – informasi teknis yang
+            tidak mengidentifikasi secara langsung (seperti jenis perangkat dan
+            pola penggunaan fitur) untuk analitik dan peningkatan performa
+            aplikasi.
+          </li>
+        </ul>
+      </section>
 
-  <h2>2. Penggunaan Data</h2>
-  <p>Data digunakan untuk:</p>
-  <ul>
-    <li>Menyediakan fitur utama DebtBuddy.</li>
-    <li>Menyimpan catatan utang dan pengingat pembayaran.</li>
-    <li>Meningkatkan kualitas layanan dan keamanan.</li>
-  </ul>
+      <section>
+        <h2>2. Cara Kami Menggunakan Data</h2>
+        <p>Data yang dikumpulkan digunakan untuk:</p>
+        <ul>
+          <li>Menyediakan dan mengoperasikan fitur-fitur utama DebtBuddy.</li>
+          <li>
+            Menyimpan catatan utang dan pengingat pembayaran sesuai input
+            pengguna.
+          </li>
+          <li>
+            Meningkatkan kualitas layanan, desain antarmuka, dan pengalaman
+            pengguna melalui analisis internal.
+          </li>
+          <li>
+            Menjaga keamanan akun dan mencegah aktivitas yang mencurigakan
+            atau penyalahgunaan.
+          </li>
+        </ul>
+      </section>
 
-  <h2>3. Penyimpanan dan Keamanan</h2>
-  <p>
-    Data disimpan di server <strong>Supabase</strong> dengan mekanisme
-    keamanan dan enkripsi yang sesuai standar industri.
-    Kami tidak menjual atau membagikan data finansial pribadi Anda kepada
-    pihak ketiga tanpa izin, kecuali jika diwajibkan oleh hukum.
-  </p>
+      <section>
+        <h2>3. Penyimpanan dan Keamanan Data</h2>
+        <p>
+          Data pengguna DebtBuddy disimpan di server yang dikelola oleh
+          <strong>Supabase</strong> dengan mekanisme enkripsi dan kontrol
+          akses yang sesuai standar industri. Kami berupaya menjaga keamanan
+          data Anda, namun pengguna juga diharapkan menjaga kerahasiaan
+          informasi akun (misalnya jangan membagikan kata sandi kepada pihak
+          lain).
+        </p>
+        <p>
+          Kami tidak menjual atau membagikan data finansial pribadi Anda kepada
+          pihak ketiga tanpa persetujuan eksplisit, kecuali jika diwajibkan
+          oleh hukum yang berlaku.
+        </p>
+      </section>
 
-  <h2>4. Iklan dan Pihak Ketiga</h2>
-  <p>
-    DebtBuddy menggunakan <strong>Google AdMob</strong> untuk menampilkan iklan.
-    Google dan mitranya dapat menggunakan cookies atau pengenal lain untuk
-    menayangkan iklan yang relevan dan mengukur performa.
-  </p>
-  <p>
-    Info lebih lanjut: 
-    <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">
-      Kebijakan Iklan Google
-    </a>.
-  </p>
+      <section>
+        <h2>4. Iklan dan Layanan Pihak Ketiga</h2>
+        <p>
+          DebtBuddy menggunakan layanan <strong>Google AdMob</strong> untuk
+          menayangkan iklan di dalam aplikasi. Penyedia iklan pihak ketiga
+          seperti Google dapat menggunakan cookies, pengenal perangkat, dan
+          teknologi serupa untuk menayangkan iklan yang lebih relevan dan
+          mengukur performa kampanye.
+        </p>
+        <p>
+          Untuk informasi lebih lanjut tentang bagaimana Google menggunakan
+          data, silakan merujuk pada
+          <a href="https://policies.google.com/technologies/ads"
+             target="_blank" rel="noopener noreferrer">
+            Kebijakan Iklan Google
+          </a>.
+        </p>
+        <div class="highlight">
+          Anda dapat mengatur preferensi iklan yang dipersonalisasi melalui
+          pengaturan perangkat Anda atau melalui layanan Google Ads Settings
+          jika tersedia di wilayah Anda.
+        </div>
+      </section>
 
-  <h2>5. Hak Anda</h2>
-  <ul>
-    <li>Melihat dan mengubah data yang Anda simpan di aplikasi.</li>
-    <li>Menghapus catatan yang tidak lagi diperlukan.</li>
-    <li>
-      Mengajukan permintaan penghapusan akun dan data tertentu melalui email.
-    </li>
-  </ul>
+      <section>
+        <h2>5. Hak Pengguna</h2>
+        <p>
+          Anda memiliki hak untuk mengelola data pribadi yang terkait dengan
+          penggunaan DebtBuddy, termasuk:
+        </p>
+        <ul>
+          <li>Melihat dan mengubah data yang Anda masukkan di aplikasi.</li>
+          <li>Menghapus catatan utang atau data lain yang Anda tidak lagi perlukan.</li>
+          <li>
+            Mengajukan permohonan penghapusan akun dan data tertentu dengan
+            menghubungi kami melalui email resmi.
+          </li>
+        </ul>
+      </section>
 
-  <h2>6. Kontak</h2>
-  <p>
-    Jika Anda memiliki pertanyaan atau permintaan terkait kebijakan privasi,
-    silakan hubungi kami melalui email:
-    <a href="mailto:support@weblabs.id">support@weblabs.id</a>
-  </p>
+      <section>
+        <h2>6. Data Anak-Anak</h2>
+        <p>
+          DebtBuddy tidak secara khusus ditujukan untuk anak di bawah usia
+          yang diwajibkan mendapatkan persetujuan orang tua menurut hukum
+          setempat. Jika Anda adalah orang tua atau wali dan mengetahui bahwa
+          anak Anda menggunakan aplikasi ini serta memberikan data pribadi,
+          silakan hubungi kami untuk penanganan lebih lanjut.
+        </p>
+      </section>
 
-  <p>&copy; 2025 DebtBuddy – Weblabs. Semua hak dilindungi.</p>
+      <section>
+        <h2>7. Perubahan Kebijakan Privasi</h2>
+        <p>
+          Kebijakan privasi ini dapat diperbarui dari waktu ke waktu untuk
+          menyesuaikan dengan pengembangan fitur, kebijakan internal, atau
+          ketentuan hukum yang berlaku. Perubahan penting akan diinformasikan
+          melalui pembaruan di aplikasi atau pada halaman ini. Tanggal
+          “Terakhir diperbarui” di bagian atas halaman akan menandai versi
+          terbaru.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Kontak</h2>
+        <p>
+          Jika Anda memiliki pertanyaan, keluhan, atau permintaan terkait
+          kebijakan privasi dan pengelolaan data, Anda dapat menghubungi kami
+          melalui:
+        </p>
+        <p>
+          Email:
+          <a href="mailto:support@weblabs.id">support@weblabs.id</a>
+        </p>
+      </section>
+
+      <div class="footer">
+        &copy; 2025 DebtBuddy &ndash; Weblabs. Semua hak cipta dilindungi.
+      </div>
+    </article>
+  </div>
 </body>
 </html>
